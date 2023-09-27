@@ -1,0 +1,129 @@
+.company__container{
+    h2{
+     color:#6e7191;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+    margin-bottom: 30px;
+    }
+
+    .company__group{
+        display:flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 120px;
+
+      .ozon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        background: #1F69FB;
+        padding:40px 10px;
+        border-radius: 12px;
+        filter: grayscale(80%);
+        transition: all 0.4s ease-out;
+        cursor: pointer;
+
+        &:hover{
+            filter: none;
+            transform: scale(1.05);
+        }
+      }
+
+
+      .autodoc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        background: #CD242F;
+        padding:30px 10px;
+        border-radius: 12px;
+        filter: grayscale(80%);
+        transition: all 0.4s ease-out;
+        cursor: pointer;
+
+        &:hover{
+            filter: none;
+            transform: scale(1.05);
+        }
+      }
+
+      .emex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        background: #FDBF32;
+        padding:35px 10px;
+        border-radius: 12px;
+        filter: grayscale(80%);
+        transition: all 0.4s ease-out;
+        cursor: pointer;
+
+        &:hover{
+            filter: none;
+            transform: scale(1.05);
+        }
+      }
+
+      .autopiter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        padding:30px 10px;
+        border-radius: 12px;
+        background: #FD3249;
+        filter: grayscale(80%);
+        transition: all 0.4s ease-out;
+        cursor: pointer;
+
+        &:hover{
+            filter: none;
+            transform: scale(1.05);
+        }
+      }
+
+      .wildberries{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        padding:35px 10px;
+        border-radius: 12px;
+        background:linear-gradient(48deg, #CB11AB 8.29%, #481173 148.38%);
+        filter: grayscale(80%);
+        transition: all 0.4s ease-out;
+        cursor: pointer;
+
+        &:hover{
+            filter: none;
+            transform: scale(1.05);
+        }
+      }
+
+
+      .avtorus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        padding:35px 10px;
+        border-radius: 12px;
+        background: #F8F8F8;
+        filter: grayscale(80%);
+        transition: all 0.4s ease-out;
+        cursor: pointer;
+
+        &:hover{
+            filter: none;
+            transform: scale(1.05);
+        }
+      }
+    }
+
+}

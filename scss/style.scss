@@ -1,0 +1,268 @@
+
+@import'./header';
+@import'./hero';
+@import './company';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Golos;
+    // background-color: rgba(0, 0, 0, 0.905);
+}
+.container{
+    // border: 1px solid black;
+    width: 100%;
+    max-width: 1410px;
+    margin: 0 auto;
+}
+@media screen and(max-width:1600px){
+    .container{
+        max-width: 95%;
+    }
+
+ 
+}
+
+@media screen and (max-width:1400px) {
+    .header{
+        width: 100%;
+    }
+    .header__top{
+        .header__top--search{
+       
+            input{
+               width: 600px;
+               padding: 12px;
+               border-radius: 12px;
+               border: 1px solid #A0A3BC;
+            }
+   
+            i{
+               display: none;
+            }
+   
+           
+       }
+    }
+}
+
+@media screen and(max-width:1200px){
+    .header__top{
+        .header__top--menu{
+            gap: 15px;
+        }
+        .header__top--button{
+            max-width: 52px;
+            i{
+                
+                font-size: 20px;
+            }
+
+            span{
+                
+                display: none;
+            }
+    
+    
+        }
+
+        .header__top--search{
+       
+            input{
+               width:482px;
+            }
+   
+            i{
+               display: none;
+            }
+       }
+
+       
+    }
+
+    .header__bottom{
+        p{
+            display: none;
+        }
+        .phone{
+            color: #FFF;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background-color: #F56E1E;
+            border-radius: 8px;
+            i{
+                padding: 10px;
+                font-size: 16px;
+            }
+            
+            a{
+                display: none;
+            }
+        }
+
+        .hero__bottom--info{
+            p{
+              width: 447px; 
+              font-size: 18px;
+             }
+ 
+             .title{
+                 width:60%;
+                 color: #F56E1E;
+                 font-size: 16px;
+             }
+
+         }
+    }
+
+    .company__group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media screen and(max-width:992px){
+.header__top{
+    .header__top--logo{
+        img{
+            width: 140px;
+        }
+    }
+
+    .header__top--search{
+       
+        input{
+           width: 400px;
+           padding: 12px;
+           border-radius: 12px;
+           border: 1px solid #A0A3BC;
+        }
+
+        i{
+           display: none;
+        }
+
+       
+   }
+
+}
+
+
+}
+@media screen and(max-width:800px){
+    .header__top{
+        .header__top--search{
+       
+            input{
+               width:300px;
+            }
+   
+            i{
+               display: none;
+            }
+       }
+    }
+
+    
+}
+@media screen and(max-width:734px){
+
+    .header{
+       box-shadow: 1px 2px 3px rgba(9, 8, 8, 0.384);
+    }
+    .header__top--logo{
+
+        display:none;
+    }
+    .header__container{
+        .header__top--search{
+      
+            .header__logotip{
+                display: block;
+            }
+            input{
+                display: none;
+               width: 708px;
+               padding: 12px;
+               border-radius: 12px;
+               border: 1px solid #A0A3BC;
+            }
+       }
+    }
+
+   .header__container{
+    .header__bottom{
+        display: none;
+    }
+   }
+  .header__container{
+    .header__top--menu{
+        
+        i{
+            display: block;
+            font-size: 40px;
+            color: #F56E1E;
+        }
+    
+        .header__top--icon{
+            display: none;
+        }
+       }
+    
+  }
+
+   
+    
+   .hero__bottom{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    .hero__bottom--info{
+        width: 100%;
+
+       p{
+         max-width: 100%;
+         color:#6E7191;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px; 
+        }
+
+        .title{
+            max-width:100%;
+            color:#6e7191;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; 
+        }
+    }
+}
+
+   .hero__container{
+    h5{
+        display: none;
+    }
+    h3{
+        color:#6E7191;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px; 
+    }
+   }
+
+   .header__top--button{
+    background-color:none;
+    i{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+   }
+}
